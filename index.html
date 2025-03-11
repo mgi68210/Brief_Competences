@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquette Flexbox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <!-- En-tête de la page -->
+    <header>
+        <h1>Je suis le titre principal de cette page</h1>
+    </header>
+ <body>
+        <!-- Première section avec du contenu divers -->
+
+    <section class="section-top"> 
+        <!-- Titre de la section -->
+        <h2>Je suis le titre de cette section</h2>
+
+        <!-- Paragraphe avec mise en évidence -->
+
+        <div class="paragraphe"><p>Je suis un paragraphe Lorem50 ipsum dolor sit amet consectetur adipisicing elit. Sint uisto eius quibusdam veritatis obcaecati in minus porro laborum, amet a repellendus quia beatae dolorem et ex tenetur laboriosam numquam odio consectetur dolores eveniet repudiandae saepe nulla? Hic, maiores <span class="highlight1">cupiditate</span>  consequatur a dolores, autem minima saepe suscipit, quas veniam tempore mollitia. 
+            Je suis un paragraphe Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        </p></div>
+
+        <!-- Liste ordonnée avec une sous-liste -->
+
+        <ul>
+            <li>A. Je liste ordonnée</li>
+            <li>B. Je jure</li>
+            <li>C. que c'est vrai
+                <ul>
+                    <li>Salade</li>
+                    <li>Tomates</li>
+                    <li>Oignons</li>
+                </ul>
+            </li>
+        </ul>
+        <!-- Image avec légende -->
+         <section classe="photo-chat1">
+         <figure>
+            <img src="./Images/Chat.jpg" alt="Photo Chat 1" class="photo-chat1">
+            <figcaption>Je suis une légende</figcaption>
+        </figure>
+        </section>
+        <!-- Ligne horizontale -->
+        <hr>
+        <!-- Lien vers une vidéo YouTube -->
+    <nav><p>Je suis une vidéo Youtube et voici <a href="https://www.youtube.com/watch?v=fxYmKtQgu7E">le lien </a></p></nav>
+    <iframe width="800" height="500" src="https://www.youtube.com/embed/fxYmKtQgu7E?si=vEzbKWoHF6FZaks9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      
+        <!-- Tableau -->
+        <table class="contourtab"> 
+            <tr> <th colspan="3"> je suis le titre de ce tableau</th> </tr>
+            <tr> 
+                <td class="fond-cellule">je suis la cellule de la première ligne </td> 
+                <td> je suis la cellule de la première ligne </td>
+                <td><span class="cellule-gras">je suis la cellule de la première ligne </span></td>
+           </tr>
+            <tr> 
+            <td> je suis la cellule de la deuxième ligne </td>
+            <td class="fond-cellule2"> je suis la cellule de la deuxième ligne </td>
+            <td> je suis la cellule de la deuxième ligne </td>
+        </tr>
+        </table>
+        <hr>
+        <!-- Formulaire de contact -->
+        <h3>Je suis le formulaire de contact</h3>
+        <form action="#" method="post" class="inline-form">
+            <p>Nom</p>
+            <input type="text" name="nom">
+            <p>Email</p>
+            <input type="email" name="email">
+            <textarea name="message" placeholder="Votre message"></textarea>
+            <button type="submit">ENVOYER</button>
+        </form>
+        </section>
+   <!-- Deuxième section avec un contenu en surlegnement (ajustement et précision) -->
+<section class="position-center">
+   <section class="photo-nature">
+    <h2 class="section-title">Je suis le titre de cette section</h2>
+    <div class="content">
+        <h3 class="div-title">Je suis le titre de cette div</h3>
+        <span class="consigne">
+            <ol>
+                <li>Je fais <span class="highlight">50%</span> de large</li>
+                <li>Je mesure <span class="highlight">450px</span> de haut</li>
+                <li>Mon fond est transparent avec <span class="highlight">80%</span> d'opacité</li>
+                <li>J'utilise la police <span class="highlight4">Open Sans</span></li>
+                <li>Moi le texte, je pèse <span class="highlight">400</span> et je mesure <span class="highlight">18px</span></li>
+                <li>J'ai une marge intérieure de <span class="highlight">20px</span></li>
+                <li>J'ai une marge extérieure de <span class="highlight">30px</span> et <span class="highlight">50px</span></li>
+                <li>J'ai un interligne de <span class="highlight">2</span></li>
+                <li>L'image derrière moi prend <span class="highlight4">toute la boîte</span>, est <span class="highlight4">centrée</span>, et non-<span class="highlight4">répétée</span></li>
+            </ol>
+        </span>
+    </div>
+</section>
+</section>
+
+    
+    <!-- Troisième section avec Flexbox -->
+    <section class="section-flexbox">
+        <h2 class="section-title2">Je suis le titre de cette section</h2>
+        
+        <!-- Contenair 1 -->
+        <section class="cadre">
+            <div class="flex-container">
+                <!-- Premier item -->
+                <div class="flex-items">
+                    <p class="p1a">Je suis une boite</p>                    <p>Je suis placé avec des flexbox</p>
+                    <img src="./Images/Chat.jpg" alt="Image de chat" class="cat-image" />
+                </div>
+                <!-- Deuxième item -->
+                <div class="flex-items">
+                    <p class="p1">Je suis une boite</p>
+                    <p>Je suis placé avec des flexbox</p>
+                    <img src="./Images/Chat.jpg" alt="Image de chat" class="cat-image" />
+                </div>
+                <!-- Troisième item -->
+                <div class="flex-items">
+                    <p class="p1">Je suis une boite</p>
+                    <p>Je suis placé avec des flexbox</p>
+                    <img src="./Images/Chat.jpg" alt="Image de chat" class="cat-image" />
+                </div>
+
+    </section>
+    </section>
+    
+      
+            <!-- Pied de page -->
+    <footer>
+        <section class="footer">
+        <p>Quand je clique sur ce <a href="#top">lien</a>, je remonte en haut de ma page</p>
+        </section>
+    </footer>
+</main>
+</body>
+</html>
